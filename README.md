@@ -16,7 +16,11 @@
 ## 安装(Install)
 
 ```bash
-sudo pip install dict-cli
+pip install dict-cli
+```
+或者本地安装
+```bash
+python -m pip install -e .
 ```
 
 ## 用法(Usage)
