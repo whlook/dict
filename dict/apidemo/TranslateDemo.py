@@ -2,10 +2,11 @@ import requests
 
 from .utils.AuthV3Util import addAuthParams
 
+# yeah, have fun!
 # 您的应用ID
-APP_KEY = '****************'
+APP_KEY = '352df80921b65816'
 # 您的应用密钥
-APP_SECRET = '********************************'
+APP_SECRET = 'DspIzFzxuzmdSvDzDhUsSMWGCIJC3SzO' 
 
 def doCall(url, header, params, method):
     if 'get' == method:

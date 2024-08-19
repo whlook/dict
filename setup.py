@@ -69,7 +69,7 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=['tests']),
     include_package_data=True,
     package_data={
-        '': ['*.py']
+        '': ['*.py', 'apidemo']
     },
     entry_points={
         'console_scripts': [
